@@ -1,0 +1,22 @@
+section.home {
+  height: 100vh;
+  background: #af0b0b;
+  padding-top: 80px;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+}
+
+section.home .container h1 {
+  color: #333131;
+  font-size: 3.5rem;
+  text-align: center;
+}
+
+section.home .container h2 {
+  text-align: center;
+  font-size: 2.25rem;
+  color: #333131;
+  font-weight: 500;
+}
+/*# sourceMappingURL=home.css.map */

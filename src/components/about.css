@@ -1,0 +1,51 @@
+section.about {
+  padding: 8rem 0;
+  background: #d3d309;
+  height: 100%;
+}
+
+section.about .container {
+  max-width: 65%;
+  margin: 0 auto;
+}
+
+section.about .container h1 {
+  text-align: center;
+  font-size: 3.5rem;
+  color: #383636;
+  margin-bottom: 2rem;
+}
+
+section.about .container .grid_about {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (minmax(300px, 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+}
+
+section.about .container .grid_about .about1 {
+  border: 5px solid #383636;
+  padding: 2rem;
+  border-radius: 10px;
+  cursor: pointer;
+  -webkit-transition: .5s ease-in-out;
+  transition: .5s ease-in-out;
+}
+
+section.about .container .grid_about .about1:hover {
+  background: #383636;
+}
+
+section.about .container .grid_about .about1:hover p {
+  color: #d3d309;
+}
+
+section.about .container .grid_about .about1 p {
+  line-height: 25px;
+  color: #383636;
+  text-align: justify;
+  font-size: .9rem;
+  font-weight: 600;
+}
+/*# sourceMappingURL=about.css.map */
